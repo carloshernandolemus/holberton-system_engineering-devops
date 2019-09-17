@@ -1,2 +1,2 @@
-# The shell
-_This is the readme for the shell commands_
+# The Shell, init files, variables and expansions
+_This are the variables, expansions and init files shell commands_
