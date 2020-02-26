@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
+<<<<<<< HEAD
 1=1
+=======
+i=1
+>>>>>>> 062d3b58db89cb665f5ec92dc2bb32f0063da805
 for i in {1..10}
     do
     echo "Holberton School"
