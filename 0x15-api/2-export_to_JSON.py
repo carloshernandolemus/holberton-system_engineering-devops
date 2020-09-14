@@ -25,6 +25,6 @@ if __name__ == "__main__":
         l_task.append(dict_task)
 
     d_task = {str(userid): l_task}
-    filename = 'user-ID_{}.json'.format(userid)
+    filename = '{}.json'.format(userid)
     with open(filename, mode='w') as f:
         json.dump(d_task, f)
