@@ -24,7 +24,7 @@ if __name__ == "__main__":
                        task.get('completed'),
                        task.get('title')])
 
-    filename = 'user-ID_{}.csv'.format(userid)
+    filename = '{}.csv'.format(userid)
     with open(filename, mode='w') as employee_file:
         employee_writer = csv.writer(employee_file,
                                      delimiter=',',
